@@ -1,0 +1,53 @@
+body {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em; /*space between the line*/
+}
+
+h1,h2 {
+    color: #007e7e;
+
+}
+
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 120%;
+}
+
+#guarantee {
+    border-color: black;
+    border_width: 1px:
+    border_style: solid;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(background.gif)
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-width: thick;
+    border-style: dashed;
+
+
+
+}
+@media screen and (min-device-width: 480px)
+{
+    #guarantee {
+        margin-rigth: 30px;
+    }
+}
+@media screen and (max-device-width: 480px)
+{
+    #guarantee {
+        margin-right:30px;
+    }
+}
+
+@media print {
+    body {
+        font-family: 'Times News Roman',Times, serif;
+    }
+}

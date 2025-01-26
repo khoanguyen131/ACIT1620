@@ -1,0 +1,81 @@
+body{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+   
+}
+
+.name {
+  
+    color:#ced6e0; /*text color*/
+    border: 1px;
+    background-color:#4b6584;
+    height: 100px;
+    padding-top: 10px; /*to make the name 10px from top and bottom but still in the middle*/
+    padding-bottom:60px;
+}
+.khoa{
+    text-align: center;
+}
+.hi{
+
+}
+.aboutme {
+    
+    
+    border: 1px;
+    background-color: #ecf0f1;
+    padding: 10px 10px; /*adjust the size of div box*/
+    margin-top: 10px;  /*make space between div box*/
+    margin-left: 40px; /*margin take space from left*/
+    margin-right: 40px; /*margin take space from right*/
+    border-radius: 15px; /*make the border lightly curve*/
+    padding-top: 5px;
+    padding-bottom:10x;
+
+}
+.skill{
+    border: 1px;
+    background-color: #ecf0f1;
+    padding: 10px 10px ;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+.project{
+    border: 1px;
+    background-color: #ecf0f1;
+    padding: 10px 10px ;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+html {
+    background-color: #bdc3c7;
+}
+.pj {
+    border: 1px solid #333; /* Solid border with a gray color */
+    padding: 10px; /* Add some space inside the border */
+    margin: 10px 0; /* Add spacing between projects */
+    border-radius: 5px; /* rounded corners */
+    background-color: #f9f9f9; /* Optional: light background color */
+    padding-left: 1px;
+    border-color: navy;
+    
+}
+#navbar {
+    color: 09122C;
+}
+#navbar:hover {
+    color: e60000;
+}
+.pj{
+    color: 09122C;
+}
+.pj:hover {
+    color: rgb(204, 0, 204);
+}

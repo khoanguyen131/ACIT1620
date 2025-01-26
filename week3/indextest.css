@@ -1,0 +1,29 @@
+/* *{
+ margin= 0;
+ padding = 0;
+
+}
+div p{
+    color:purple;
+} */
+
+/* 
+ ul.orange > li {
+    color:orange;
+ } */
+
+ /* h1 + p {
+    color:teal;
+ } */
+
+ /* input[type="text"] {
+    border: 2px solid blue;
+ }
+  */
+
+
+/* 
+  hover the link */
+  a:hover {
+    color:red;
+  }
