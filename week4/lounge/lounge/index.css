@@ -1,0 +1,30 @@
+/* .box {
+    display:flex; /*row left to right*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row;  */
+
+
+/* } */ 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    border:2px solid #333;
+    padding:10px;
+    background-color: #f9f9f9;
+}
+
+.flex-item {
+    flex:1;
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
+    border: 1px solid #007bff;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    box-shadow: 20px 20px 5px rgba(0,0,0,1); /*cai 20 dau tien la phai , am la trai. 20 thu 2 la tren duoi. so rgba la do dam nhat cua shadow*/
+
+}

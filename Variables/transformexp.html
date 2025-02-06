@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .translate{
+    width: 150px;
+    padding: 20px;
+    background-color:  lightblue;
+    text-align:center;
+    transition: transform 0.5s ease; /*how long the animation vd: 2s lau hon / 0.5s nhanh | con ease la slow ( natural, smooth effect)*/
+    }
+    .translate:hover {
+        transform: translate(50px, 30px); /*move animation 50px to the right and 30px down*/
+    }
+</style>
+
+
+<body>
+    <div class="translate">Translate me</div>
+</body>
+</html>

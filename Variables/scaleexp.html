@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .scale{
+    width: 150px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color:  lightgreen;
+    text-align:center;
+    transition: transform 0.5s ease; /*how long the animation vd: 2s lau hon / 0.5s nhanh | con ease la slow ( natural, smooth effect)*/
+    }
+    .scale:hover {
+        transform: scale(1.5, 1.2); /*increase width by 1.5x and height by 1.2x*/
+        /*tao hieu ung an vao no to hay nho len */
+    }
+</style>
+
+
+<body>
+    <div class="scale">scale me</div>
+</body>
+</html>

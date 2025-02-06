@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .skew{
+    width: 150px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color:  lightgreen;
+    text-align:center;
+    transition: transform 0.5s ease; /*how long the animation vd: 2s lau hon / 0.5s nhanh | con ease la slow ( natural, smooth effect)*/
+    }
+    .skew:hover {
+        transform: skew(20deg, 10deg); /*skew 20 degrees horizontally and 10 degress vertically*/
+        /**/
+    }
+</style>
+
+
+<body>
+    <div class="skew">skew me</div>
+</body>
+</html>
