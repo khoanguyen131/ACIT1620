@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+          let chevy={
+         make: "Chevy",
+         model:"Bel Air",
+         year = 1957,
+         color: "Red",
+         passenger:2,
+         covertible:false,
+         mileage:1021,
+         started:false,
+         start: function() {
+            this.started = true;
+         },
+         stop:fucntion(){
+            this.started = false;
+         },
+         drive: function(){
+            if(this.started) {
+                alert(this.make +""+ this.model)
+            }
+            else {
+                aler("You need to start the engine first");
+            }
+         }
+         }
+
+
+         };
+         let fiat={
+         make: "Chevy",
+         model:"500",
+         year = 1957,
+         color: "Medium Blue",
+         passenger:2,
+         covertible:false,
+         mileage:88000
+         };
+         let cadi ={
+         make: "GM",
+         model:"Cadillac",
+         year = 1957,
+         color: "Medium Blue",
+         passenger:5,
+         covertible:false,
+         mileage:12900
+         };
+         let taxi ={
+         make: "Webville Motor",
+         model:"Cadillac",
+         year = 1957,
+         color: "Yellow",
+         passenger:4,
+         covertible:false,
+         mileage:281341
+         };
+
+         fiat.start();
+         fiat.stop();
+         fiat.drive();
+
+
+
+    
